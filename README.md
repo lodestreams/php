@@ -3,6 +3,8 @@
 Additional modules added by LodeStreams:
 
 ```bash
+echo "Installing HTTP extension"
+apt-get install libpcre3-dev libcurl3-openssl-dev php5-dev php-http php5-mcrypt php-pear
 pecl_install pecl/raphf raphf 20
 pecl_install pecl/propro propro 20
 pecl_install pecl_http http 30
